@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanical Workshop website</title>
+    <!-- Linking swiperjs style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <span id="span">Mech. Industries</span>
+            <ul id="sidemenu">
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#Services">Services</a></li>
+                <li> <a href="#About">About</a></li>
+                <li> <a href="#Gallery">Gallery</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i  class="fas fa-bars"  onclick="openmenu()"></i>
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="section">
+            <div class="firstsection">
+                <h1>Mech. Industries</h1>
+                <b class="mechheading">"Empowering Innovation Through Mechanical Excellence"</b>
+                <p>Reliable Mechanical Services in Akluj.</p>
+                <!-- <button class="button">Book Now!</button> -->
+                <a href="#contact" class="button">Book Now!</a>
+            </div>
+        </div>
+    </main>
+
+    <div id="Services">
+        <div class="container">
+            <h2 id="title">Services</h2>
+        </div>
+        <hr>
+        <div class="services-list">
+            <div class="Box" id="Box1">
+                <div class="box" id="box1"></div>
+                <h2>Metal Fabrication Services </h2><br>
+                <p>We offer precision metal cutting, punching, and forming services using heavy-duty maechanical power
+                    press machines. Specialized in producing customized metal strips and components for construction,
+                    industrial hardware and door-window fabrication.</p>
+            </div>
+            <div class="Box" id="Box2">
+                <div class="box" id="box2"></div>
+                <h2>Metal Cutting Services</h2><br>
+                <p>We provide precise metal cutting services using heavy-duty chop saw machines. Our facility can out
+                    MS/SS flats, rods, angles, and pipes in customized sizes for industrial, fabrication, and
+                    construction use. Fast and accurate cutting ensures high-quality fabrication. </p>
+            </div>
+            <div class="Box" id="Box3">
+                <div class="box" id="box3"></div>
+                <h2>Grinding & Finishing Services</h2><br>
+                <p>We offer precise grinding, tool sharpening, and finishing services using heavy-duty bench grinders.
+                    From burr removal to tool edge shaping, we ensure high-accuracy surface prep for welding,
+                    fabrication and industrial use.</p>
+            </div>
+            <div class="Box" id="Box4">
+                <div class="box" id="box4"></div>
+                <h2>Welding & Fabrication Services</h2><br>
+                <p>We provide reliable arc welding services for metal joining, repair, and fabrication work. Our skilled
+                    technicians use advanced JKARC machines to ensure strong and precise welding for gates, grills,
+                    machinary parts, and structural components.</p>
+            </div>
+            <div class="Box" id="Box5">
+                <div class="box" id="box5"></div>
+                <h2>Custom Welding & Fabrication Solutions</h2><br>
+                <p>We offer tailored welding services including design samples, joint testing, and custom fabrication
+                    work. Whether it's plates, brakcets, or structural joints, we ensure strong, clean welds suitable
+                    for construction, machinary, and custom metalwork. Quality assurance and client-specific designs are
+                    our priority.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="About">
+        <div class="container">
+            <h2 class="about" id="title">About</h2>
+            <hr>
+
+            <div class="column">
+                <!-- <div class="about-col-1">
+                    <img src="Images/owner1.jpg" alt="">
+                </div> -->
+                <div class="owner">
+                    <img src="owner1.png" alt="">
+                    <img src="owner2.png" alt="">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title1">Owners</h1>
+                    <p class="abovecontent"><b>Mr. Kishor Chavan</b> & <b>Mr. Hansraj Patil</b>  are co-founders of Mech. Industry, bringing together their expertise in Mechanical Engineering with over 10 years of industry experience. Under his leadership, the workshop has built a reputation for quality workmanship, timely delivery, and customer satisfaction.</p>
+                    <!-- <br><button class="btn">Call Now</button> -->
+
+                    <div class="call1">
+                        <!-- <a class="call" href="tel:+9881857264">Call Now</a> -->
+                        <a href="#contact" class="btn">Call Now!</a>
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery -->
+    <div id="Gallery">
+        <h1 id="title">Gallery</h1>
+        <hr><br>
+        <b class="galleryinfo"> Explore our gallery to see the tools, machines, ans services in action. Real work, real
+            results - powered by Mech Workshop.</b>
+        <div class="images">
+            <img src="img6.png" alt="">
+            <img src="img7.png" alt="">
+            <img src="img8.png" alt="">
+            <img src="img9.png" alt="">
+            <img src="img10.png" alt="">
+            <img src="img11.png" alt="">
+            <img src="img12.png" alt="">
+            <img src="img13.png" alt="">
+            <img src="img9.png" alt="">
+        </div>
+        <div class="popup-images">
+            <span>&times;</span>
+            <img src="img1.png" alt="">
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="container swiper">
+            <div class="card-wrapper ">
+                <ul class="card-list swiper-wrapper">
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link">
+                            <!-- <img src="img1.jpg" alt="" class="card-image"> -->
+                            <video  controls loop muted autoplay="autoplay">
+                                <source src="video1.mp4">
+                            </video>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link">
+                            <!-- <img src="img1.jpg" alt="" class="card-image"> -->
+                            <video class="video2" controls loop muted autoplay="autoplay">
+                                <source src="video2.mp4">
+                            </video>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link">
+                            <video  controls loop muted autoplay="autoplay">
+                                <source src="video3.mp4">
+                            </video>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link">
+                            <video  controls loop muted autoplay="autoplay">
+                                <source src="video4.mp4">
+                            </video>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link">
+                            <video  controls loop muted autoplay="autoplay">
+                                <source src="video5.mp4">
+                            </video>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link">
+                            <video controls loop muted autoplay="autoplay">
+                                <source src="video6.mp4">
+                            </video>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link">
+                            <video controls loop muted autoplay="autoplay">
+                                <source src="video7.mp4">
+                            </video>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+    <!-- </div> -->
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <!-- <div class="row"> -->
+            <div class="contact1">
+                <h1 id="title">Contact</h1>
+                <hr>
+                <p><i class="fa-solid fa-envelope"></i>  mechindustriesakluj@gmail.com</p>
+                <p> <i class="fa-solid fa-mobile-screen-button"></i> 9730330397 , 8668647529</p>
+
+            </div>
+            <div class="contact2">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn">Submit</button>
+                </form>
+                <!-- <span id="msg"></span> -->
+            </div>
+            <span id="msg"></span>
+            <!-- </div> -->
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60751.447273650265!2d74.9810578001498!3d17.887068813557292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc4755741d83981%3A0xbcfedeece432c6bf!2sPandhare%20Vasti!5e0!3m2!1sen!2sin!4v1751685865695!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <div class="copyright">
+            <p>&#169; Copyright 2025 Mech Industry <i class="fa-solid fa-heart"></i> All rights reserved.</p>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- Linking swiperjs (Images) script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Connect contact form to google sheet -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyMo29WXA5VAfK2DJp44AaRDpV-OPC29KYNoR3ObSDVxrRzsrl64oFK47S_UTSK1JDa4Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <!-- Script of sidemenu -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
